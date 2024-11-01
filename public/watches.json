@@ -5,7 +5,7 @@
         "description": "Caixa em aço inox dourado 40MM e pulseira de couro",
         "mechanism": "Automático",
         "value": 1082.50,
-        "image": "./src/assets/citizen-automatico.jpg",
+        "image": "/imagens/citizen-automatico.jpg",
         "stock": 6,
         "category": "Clássico"
     },
@@ -15,7 +15,7 @@
         "description": "Caixa em aço inoxidável prata 33MM e pulseira em aço inoxidável prata",
         "mechanism": "Quatzo",
         "value": 2804.99,
-        "image": "./src/assets/tissot-quartzo.webp",
+        "image": "/imagens/tissot-quartzo.webp",
         "stock": 10,
         "category": "Moderno"
     },
@@ -25,7 +25,7 @@
         "description": "Relógio com caixa de 40MM e pulseira de couro marrom",
         "mechanism": "Quatzo",
         "value": 389.00,
-        "image": "./src/assets/saint-german.webp",
+        "image": "/imagens/saint-german.webp",
         "stock": 3,
         "category": "Esportivo"
     },
@@ -35,7 +35,7 @@
         "description": "Caixa em aço 42MM preto e pulseira em aço, cor preto",
         "mechanism": "Automático",
         "value": 1798.00,
-        "image": "./src/assets/orient-automatico.webp",
+        "image": "/imagens/orient-automatico.webp",
         "stock": 12,
         "category": "Clássico"
     },
@@ -45,7 +45,7 @@
         "description": "Relógio em aço com banho dourado, formato retangular",
         "mechanism": "Automático",
         "value": 816.05,
-        "image": "./src/assets/technos-feminino.webp",
+        "image": "/imagens/technos-feminino.webp",
         "stock": 12,
         "category": "Moderno"
     }
