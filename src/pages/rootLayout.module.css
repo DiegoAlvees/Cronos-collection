@@ -1,0 +1,193 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.linkName {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  padding-right: 1rem;
+  gap: 1rem;
+  max-width: 100vh;
+  position: absolute;
+  right: 1rem;
+  top: 0; 
+  padding-top: 1rem; 
+}
+
+.linkInicio,
+.linkCatalogo,
+.linkCarrinho {
+  position: relative;
+  display: inline-block;
+}
+
+.linkInicio::before,
+.linkCatalogo::before,
+.linkCarrinho::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background-color: #f7f7f7;
+  transition: width 0.3s ease, left 0.3s ease;
+  transform-origin: center;
+}
+
+.linkInicio:hover::before,
+.linkCatalogo:hover::before,
+.linkCarrinho:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.inicioHome {
+  color: transparent;
+}
+
+.inicioHome:hover {
+  cursor: default;
+}
+
+.content {
+  width: 100%;  
+  min-width: 100%;
+  flex-grow: 1;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+footer {
+  padding: 5px 0;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+}
+
+.contentHome {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.nameHome {
+  margin: 0 auto;
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  background: linear-gradient(90deg, #ff8c00, #ff4500);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+
+
+.nameHome::after {
+  content: "Relógios que contam histórias";
+  font-size: 1.2rem;
+  display: block;
+  font-style: italic;
+  text-align: center;
+  margin-top: 1rem;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+@media (max-width: 1050px) {
+  .nameHome {
+    font-size: 3.3rem;
+  }
+
+  .nameHome::after {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .nameHome {
+    font-size: 3rem;
+  }
+
+  .nameHome::after {
+    font-size: .9rem;
+  }
+}
+
+ @media (max-width: 650px) {
+.nameHome {
+transform: none;
+padding-top: 2rem;
+margin: 0 auto;
+font-size: 2.5rem;
+text-align: center;
+}
+
+.nameHome::after {
+  content: "Relógios que contam histórias";
+  font-size: .8rem;
+  margin: .5rem;
+}
+
+nav {
+  gap: .5rem;
+  font-size: .8rem;
+  padding-right: 0;
+  padding-top: .5rem;
+}
+ }
+
+ @media (max-width: 410px) {
+  .nameHome {
+    padding-top: 1rem;
+  }
+ }
+
+ @media (max-width: 360px) {
+.nameHome {
+  font-size: 2.2rem;
+  padding-top: 2rem;
+}
+
+.nameHome::after {
+  font-size: .6rem;
+}
+ }
+
+
+
+
+

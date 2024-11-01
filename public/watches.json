@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Citizen automático",
+        "description": "Caixa em aço inox dourado 40MM e pulseira de couro",
+        "mechanism": "Automático",
+        "value": 1082.50,
+        "image": "./src/assets/citizen-automatico.jpg",
+        "stock": 6,
+        "category": "Clássico"
+    },
+    {
+        "id": 2,
+        "name": "Tissot Pr 100",
+        "description": "Caixa em aço inoxidável prata 33MM e pulseira em aço inoxidável prata",
+        "mechanism": "Quatzo",
+        "value": 2804.99,
+        "image": "./src/assets/tissot-quartzo.webp",
+        "stock": 10,
+        "category": "Moderno"
+    },
+    {
+        "id": 3,
+        "name": "Saint Germain Bronx Black Silver",
+        "description": "Relógio com caixa de 40MM e pulseira de couro marrom",
+        "mechanism": "Quatzo",
+        "value": 389.00,
+        "image": "./src/assets/saint-german.webp",
+        "stock": 3,
+        "category": "Esportivo"
+    },
+    {
+        "id": 4,
+        "name": "Orient automático clássico",
+        "description": "Caixa em aço 42MM preto e pulseira em aço, cor preto",
+        "mechanism": "Automático",
+        "value": 1798.00,
+        "image": "./src/assets/orient-automatico.webp",
+        "stock": 12,
+        "category": "Clássico"
+    },
+    {
+        "id": 5,
+        "name": "Technos Feminino mini joia",
+        "description": "Relógio em aço com banho dourado, formato retangular",
+        "mechanism": "Automático",
+        "value": 816.05,
+        "image": "./src/assets/technos-feminino.webp",
+        "stock": 12,
+        "category": "Moderno"
+    }
+    
+]

@@ -1,0 +1,151 @@
+.cartContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cartImage {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cartItem h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cartItem p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.cartActions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cartTotal {
+  margin-top: 2rem;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.emptyCart {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .cartContainer {
+    padding: 1rem;
+    max-width: 90%;
+  }
+
+  .cartItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+align-items: center;
+  }
+
+  .cartImage {
+    width: 80px;
+  }
+
+  .cartItem h3 {
+    font-size: 1.1rem;
+  }
+
+  .cartItem p {
+    font-size: 0.9rem;
+  }
+
+  .cartActions {
+    gap: 0.3rem;
+  }
+
+  .btn {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .cartTotal {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cartContainer {
+    padding: 0.5rem;
+    max-width: 100%;
+  }
+
+  .cartItem {
+    padding: 0.7rem;
+  }
+
+  .cartImage {
+    width: 60px;
+  }
+
+  .cartItem h3 {
+    font-size: 1rem;
+  }
+
+  .cartItem p {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .cartTotal {
+    font-size: 1rem;
+  }
+}
