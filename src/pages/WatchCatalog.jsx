@@ -90,11 +90,19 @@ export default function WatchCatalog() {
               <p>
                 <strong>Mecanismo:</strong> {watch.mechanism}
               </p>
-              <p>R${watch.value}</p>
+              <p>
+                {watch.value.toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                })}
+              </p>
               <p>Estoque: {watch.stock}</p>
             </div>
             <div className={styles.divButton}>
-              <button onClick={() => addToCart(watch)}>
+              <button
+                className={styles.buttonAddToCart}
+                onClick={() => addToCart(watch)}
+              >
                 Adicionar ao carrinho
               </button>
             </div>

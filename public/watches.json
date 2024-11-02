@@ -48,6 +48,17 @@
         "image": "/imagens/technos-feminino.webp",
         "stock": 12,
         "category": "Moderno"
+    },
+    {
+        "id": 6,
+        "name": "Seculus Semi Slim",
+        "description": "caixa em aço, dourado com 4cm de diâmetro",
+        "mechanism": "Quartz",
+        "value": 399.00,
+        "image": "/imagens/classicos/seculus-semislim.webp",
+        "stock": 0,
+        "category": "Clássico"
     }
+
     
 ]

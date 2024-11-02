@@ -6,17 +6,20 @@ export default function Cart() {
   const { cart, removeFromCart, addToCart } = useContext(CartContext);
 
   return (
-    <div className={styles.cartContainer}>
-      <h2>Carrinho</h2>
+    <div className={cart.length === 0 ? '' : styles.cartContainer}>
+      
       {cart.length === 0 ? (
-        <p>Seu carrinho está vazio</p>
+        <p className={styles.emptyCart}>Carrinho vazio</p>
       ) : (
         <ul className={styles.cartList}>
           {cart.map((item) => (
             <li key={item.id} className={styles.cartItem}>
               <h3>{item.name}</h3>
               <img className={styles.cartImage} src={item.image} alt="Relógio" />
-              <p>R$: {item.value}</p>
+              <p>{item.value.toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                })}</p>
               <p>Quantidade: {item.quantity}</p>
               <div className={styles.cartActions}>
                 <button

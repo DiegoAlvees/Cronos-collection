@@ -162,6 +162,11 @@ text-align: center;
   margin: .5rem;
 }
 
+.linkName {
+  margin: 0 auto;
+  padding-top: .5rem;
+}
+
 nav {
   gap: .5rem;
   font-size: .8rem;
