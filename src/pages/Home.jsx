@@ -1,8 +1,8 @@
 import styles from "./home.module.css"
 import { Link } from "react-router-dom"
-import relogioClassico from "/imagens/citizen-automatico.jpg"
-import relogioModerno from "/imagens/tissot-quartzo.webp"
-import relogioEsportivo from "/imagens/orient-automatico.webp"
+import relogioClassico from "/imagens/classicos/hanna-martin.webp"
+import relogioModerno from "/imagens/moderno/lige.webp"
+import relogioEsportivo from "/imagens/esportivo/esportivo-tela-led.webp"
 
 
 export default function Home() {

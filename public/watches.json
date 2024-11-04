@@ -5,7 +5,7 @@
         "description": "Caixa em aço inox dourado 40MM e pulseira de couro",
         "mechanism": "Automático",
         "value": 1082.50,
-        "image": "/imagens/citizen-automatico.jpg",
+        "image": "/imagens/classicos/citizen-automatico.jpg",
         "stock": 6,
         "category": "Clássico"
     },
@@ -15,7 +15,7 @@
         "description": "Caixa em aço inoxidável prata 33MM e pulseira em aço inoxidável prata",
         "mechanism": "Quatzo",
         "value": 2804.99,
-        "image": "/imagens/tissot-quartzo.webp",
+        "image": "/imagens/moderno/tissot-quartzo.webp",
         "stock": 10,
         "category": "Moderno"
     },
@@ -25,19 +25,19 @@
         "description": "Relógio com caixa de 40MM e pulseira de couro marrom",
         "mechanism": "Quatzo",
         "value": 389.00,
-        "image": "/imagens/saint-german.webp",
+        "image": "/imagens/classicos/saint-german.webp",
         "stock": 3,
-        "category": "Esportivo"
+        "category": "Clássico"
     },
     {
         "id": 4,
-        "name": "Orient automático clássico",
+        "name": "Orient automático",
         "description": "Caixa em aço 42MM preto e pulseira em aço, cor preto",
         "mechanism": "Automático",
         "value": 1798.00,
-        "image": "/imagens/orient-automatico.webp",
+        "image": "/imagens/moderno/orient-automatico.webp",
         "stock": 12,
-        "category": "Clássico"
+        "category": "Moderno"
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "description": "Relógio em aço com banho dourado, formato retangular",
         "mechanism": "Automático",
         "value": 816.05,
-        "image": "/imagens/technos-feminino.webp",
+        "image": "./imagens/moderno/technos-feminino.webp",
         "stock": 12,
         "category": "Moderno"
     },
@@ -56,8 +56,128 @@
         "mechanism": "Quartz",
         "value": 399.00,
         "image": "/imagens/classicos/seculus-semislim.webp",
-        "stock": 0,
+        "stock": 8,
         "category": "Clássico"
+    },
+    {
+        "id": 7,
+        "name": "Hefestus Feraggio",
+        "description": "Construído inteiramente em Aço inox com mostrador em Hardlex e pulseira em couro legítimo.",
+        "mechanism": "Quartz",
+        "value": 259.90,
+        "image": "/imagens/classicos/hanna-martin.webp",
+        "stock": 8,
+        "category": "Clássico"
+    },
+    {
+        "id": 8,
+        "name": "Relógio Classic Hannah Martin",
+        "description": "Relógio feminono com material em aço inoxidável, com design distintivo e ateção aos detalhes ",
+        "mechanism": "Quartz",
+        "value": 189.90,
+        "image": "/imagens/classicos/RelogioClassicVersale.webp",
+        "stock": 13,
+        "category": "Clássico"
+    },
+    {
+        "id": 9,
+        "name": "Relógio Lavaredo",
+        "description": "Relógio em aço inoxidável com 39.5mm de diâmetro e pulseira de couro",
+        "mechanism": "Automático",
+        "value": 189.90,
+        "image": "/imagens/classicos/lavaredo.jpg",
+        "stock": 9,
+        "category": "Clássico"
+    },
+    {
+        "id": 10,
+        "name": "Relógio Lige",
+        "description": "Com o Relógio Lige você terá um relógio sóbrio e refinado, com materiais requintados e acabamentos luxuosos de alta durabilidade + ótima resistência. ",
+        "mechanism": "Quartz",
+        "value": 329.90,
+        "image": "/imagens/moderno/lige.webp",
+        "stock": 16,
+        "category": "Moderno"
+    },
+    {
+        "id": 11,
+        "name": "Relógio Aimes",
+        "description": "Relógio com cronógrafo, bisel decodificado com estrelas, com pulseira de silicone",
+        "mechanism": "Quartz",
+        "value": 527.00,
+        "image": "/imagens/moderno/aimes.jpg",
+        "stock": 11,
+        "category": "Moderno"
+    },
+    {
+        "id": 12,
+        "name": "Relógio Mondaine Cristais Glitter",
+        "description": "Relógio fashion, com mostrador rosa suave, com brilhos e pedras cravejadas que dão charme para o relógio.",
+        "mechanism": "Quartz",
+        "value": 220.90,
+        "image": "/imagens/moderno/mondaine.webp",
+        "stock": 5,
+        "category": "Moderno"
+    },
+    {
+        "id": 13,
+        "name": "Relógio G-Shock Carbon Core Guard",
+        "description": "Relógio em cor preto militar, com diametro de 48,5mm x 45,4mm",
+        "mechanism": "Quartz e Digital",
+        "value": 557.90,
+        "image": "/imagens/esportivo/g-shock-black.webp",
+        "stock": 7,
+        "category": "Esportivo"
+    },
+    {
+        "id": 14,
+        "name": "Smartwatch",
+        "description": "Equipado com detecção óptica, sensores de detecção de temperatura e batimentos cardiaco",
+        "mechanism": "Digital",
+        "value": 430.00,
+        "image": "/imagens/esportivo/smartwatch.webp",
+        "stock": 13,
+        "category": "Esportivo"
+    },
+    {
+        "id": 15,
+        "name": "Relógio esportivo Sanda",
+        "description": "Relogio Esportivo verde com Tela Led, Display Luminoso a Prova D'agua",
+        "mechanism": "Digital",
+        "value": 290.90,
+        "image": "/imagens/esportivo/esportivo-tela-led.webp",
+        "stock": 6,
+        "category": "Esportivo"
+    },
+    {
+        "id": 16,
+        "name": "Relógio Sanda branco",
+        "description": "Relógio masculino de pulso dupla exibição, esportivo a prova d`água ",
+        "mechanism": "Digital e Quartz",
+        "value": 520.90,
+        "image": "/imagens/esportivo/branco.webp",
+        "stock": 9,
+        "category": "Esportivo"
+    },
+    {
+        "id": 17,
+        "name": "Relógio Feminino Casio",
+        "description": "Relógio Casio Unissex Digital Casual LW-203 Resistente à água, é ideal para o uso diário, até mesmo em atividades aquáticas leves como natação e banho.",
+        "mechanism": "Digital",
+        "value": 174.60,
+        "image": "/imagens/esportivo/cassio-feminino.jpg",
+        "stock": 14,
+        "category": "Esportivo"
+    },
+    {
+        "id": 18,
+        "name": "Relógio masculino Curren",
+        "description": "O relógio possui visual esportivo e função data. Seu mostrador apresenta marcadores numéricos e ponteiros luminosos.",
+        "mechanism": "Quartz",
+        "value": 322.20,
+        "image": "/imagens/esportivo/curren.webp",
+        "stock": 14,
+        "category": "Esportivo"
     }
 
     
