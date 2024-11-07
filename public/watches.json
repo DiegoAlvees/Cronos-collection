@@ -45,7 +45,7 @@
         "description": "Relógio em aço com banho dourado, formato retangular",
         "mechanism": "Automático",
         "value": 816.05,
-        "image": "./imagens/moderno/technos-feminino.webp",
+        "image": "/imagens/moderno/technos-feminino.webp",
         "stock": 12,
         "category": "Moderno"
     },
@@ -156,7 +156,7 @@
         "mechanism": "Digital e Quartz",
         "value": 520.90,
         "image": "/imagens/esportivo/branco.webp",
-        "stock": 9,
+        "stock": 0,
         "category": "Esportivo"
     },
     {

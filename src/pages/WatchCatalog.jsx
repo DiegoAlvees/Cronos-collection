@@ -96,12 +96,11 @@ export default function WatchCatalog() {
                   currency: "BRL",
                 })}
               </p>
-              <p>Estoque: {watch.stock}</p>
             </div>
             <div className={styles.divButton}>
               <button
                 className={styles.buttonAddToCart}
-                onClick={() => addToCart(watch)}
+                onClick={() => {addToCart(watch); alert('Adicionado ao carrinho ')}}
               >
                 Adicionar ao carrinho
               </button>

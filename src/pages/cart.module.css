@@ -6,7 +6,6 @@
   border-radius: 8px;
 }
 
-
 .cartList {
   list-style: none;
   padding: 0;
@@ -62,11 +61,6 @@
   background-color: #0056b3;
 }
 
-.btn:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
 .cartTotal {
   margin-top: 2rem;
   text-align: right;
@@ -85,18 +79,56 @@
   padding-bottom: 5rem;
 }
 
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  
+}
+
+.divTotal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divTotal p {
+  padding-top: .6rem;
+  padding-left: 1rem;
+}
+
+.divButtonFinish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonFinish {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  
+}
+
+.buttonFinish:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 768px) {
   .cartContainer {
     padding: 1rem;
     max-width: 90%;
   }
 
-
   .cartItem {
     flex-direction: column;
     align-items: flex-start;
-    gap: .5rem;
-align-items: center;
+    gap: 0.5rem;
+    align-items: center;
   }
 
   .cartImage {
@@ -123,6 +155,31 @@ align-items: center;
   .cartTotal {
     font-size: 1.2rem;
   }
+
+  .divButtonFinish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  
+  }
+
+  .buttonFinish {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    
+  }
+
+  .divTotal {
+    padding-bottom: 1rem;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -154,5 +211,9 @@ align-items: center;
 
   .cartTotal {
     font-size: 1rem;
+  }
+
+  .totalContainer {
+    align-items: center;
   }
 }

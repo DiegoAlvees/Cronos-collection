@@ -17,16 +17,11 @@ export function CartContextProvider({ children }) {
       let updateCart;
 
       if (itemExists) {
-        if (newItem.stock > itemExists.quantity) {
-          updateCart = currentCart.map((item) =>
-            item.id === newItem.id
-              ? { ...item, quantity: item.quantity + 1 }
-              : item
-          );
-        } else {
-          alert("Estoque insuficiente");
-          return currentCart;
-        }
+        updateCart = currentCart.map((item) =>
+          item.id === newItem.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
       } else {
         updateCart = [...currentCart, { ...newItem, quantity: 1 }];
       }
@@ -35,7 +30,6 @@ export function CartContextProvider({ children }) {
       return updateCart;
     });
 
-    newItem.stock -= 1;
   };
 
   const removeFromCart = (id) => {
