@@ -32,7 +32,7 @@ export default function Cart() {
                     +
                   </button>
                   <button className={styles.btn} onClick={() => {
-                    if(window.confirm(`deseja remover ${item.name} do carrinho?`))
+                    if(window.confirm(`Deseja remover ${item.name} do carrinho?`))
                     removeFromCart(item.id)}}>
                     Remover
                   </button>
