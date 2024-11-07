@@ -52,7 +52,7 @@ export default function Cart() {
             </p>
             </div>
             <div className={styles.divButtonFinish}>
-              <button className={styles.buttonFinish}>Finaliza compra</button>
+              <button className={styles.buttonFinish}>Finalizar compra</button>
             </div>
           </div>
         </>
