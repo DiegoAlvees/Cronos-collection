@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./home.module.css"
 import { Link } from "react-router-dom"
 import relogioClassico from "/imagens/classicos/hanna-martin.webp"
