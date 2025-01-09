@@ -1,9 +1,5 @@
-# React + Vite
+# Descrição
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste projeto, desenvolvi o front-end de uma loja virtual de relógios, utilizando React Router DOM para implementar a navegação entre páginas.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Cronos-collection
+![alt text](./src/assets/cronos-collection.png)
